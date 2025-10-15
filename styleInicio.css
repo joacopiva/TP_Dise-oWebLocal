@@ -131,7 +131,7 @@ footer a{
   object-fit: contain;
 }
 
-@media (max-width: 970px){
+@media (max-width: 1000px){
   .cards{ grid-template-columns: 1fr; }
 }
 
@@ -146,7 +146,7 @@ footer a{
 .nav-toggle{ display:none; }
 .hamburger{ display:none; }
 
-@media (max-width: 970px){
+@media (max-width: 1000px){
   .nav{
     flex-wrap: wrap;
     align-items: center;
