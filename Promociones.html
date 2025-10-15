@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones</title>
+  <link rel="stylesheet" href="stylePromociones.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">
+        <img src="./img/logo.png" alt="Logo de la perfumería" width="100" height="100">
+    </div>
+
+    <div class="buscador">
+        <form role="search" class="search" onsubmit="return false;">
+            <input type="search" placeholder="Buscar perfumes..." aria-label="Buscar" />
+        </form>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menú">
+    <label for="nav-toggle" class="hamburger" aria-hidden="true">☰</label>
+
+
+    <nav class="menu">
+        <ul> 
+
+            <li><a href="MujerHombre.html" class="boton">Hombre</a></li>
+            <li><a href="MujerHombre.html" class="boton">Mujer</a></li>
+            <li><a href="index.html" class="boton">Inicio</a></li>
+        </ul>
+    </nav>
+
+    </header>
+
+  <main>
+
+    <div class="linea">
+        <h1>Promociones</h1>
+    </div>
+
+    <section class="wrap">
+        <section class="promo" id="p1">
+        <h2 class="promo__title">Llevá 2 y 50% en el segundo</h2>
+        <label>Producto
+            <select class="prod">
+            <option value="120000">Dior Sauvage ($120.000)</option>
+            <option value="130000">Le Beau Le Parfum ($130.000)</option>
+            <option value="110000">Stronger With You ($110.000)</option>
+            </select>
+        </label>
+        <label>Cantidad
+            <input class="qty" type="number" min="1" value="1">
+        </label>
+        <div class="res">
+            <p>Total sin descuento: <span class="sub">—</span></p>
+            <p>Descuento aplicado: <span class="disc">—</span></p>
+            <p>Total final con ahorro: <span class="tot">—</span></p>
+        </div>
+        </section>
+
+        <section class="promo" id="p2">
+        <h2 class="promo__title">3×2 en productos seleccionados</h2>
+        <label>Producto (seleccionados)
+            <select class="prod">
+            <option value="130000">Le Beau Le Parfum ($130.000)</option>
+            <option value="120000">Dior Sauvage ($120.000)</option>
+            <option value="150000">Ombre Leathe ($150.000)</option>
+            </select>
+        </label>
+        <label>Cantidad
+            <input class="qty" type="number" min="1" value="1">
+        </label>
+        <div class="res">
+            <p>Total sin descuento: <span class="sub">—</span></p>
+            <p>Descuento aplicado: <span class="disc">—</span></p>
+            <p>Total final con ahorro: <span class="tot">—</span></p>
+        </div>
+        </section>
+
+        <section class="promo" id="p3">
+        <h2 class="promo__title">10% de descuento por compras &gt;= $300.000</h2>
+        <label>Producto
+            <select class="prod">
+            <option value="110000">Stronger With You ($110.000)</option>
+            <option value="150000">Ombre Leathe ($150.000)</option>
+            <option value="180000">Creed Aventus ($180.000)</option>
+            </select>
+        </label>
+        <label>Cantidad
+        <input class="qty" type="number" min="1" value="1">
+        </label>
+        <div class="res">
+            <p>Total sin descuento: <span class="sub">—</span></p>
+            <p>Descuento aplicado: <span class="disc">—</span></p>
+            <p>Total final con ahorro: <span class="tot">—</span></p>
+        </div>
+        </section>
+    </section>
+  </main>
+
+    <footer >
+        <div>
+            <a href="Contactanos.html">Desea contactarnos?</a>
+        </div>
+        <div>
+            <a href="SobreNosotros.html">Sobre Nosotros</a>
+        </div>
+        <div>
+            <a href="Promociones.html">Promociones</a>
+        </div>
+    </footer>
+
+  <script src="promociones.js"></script>
+</body>
+</html>
